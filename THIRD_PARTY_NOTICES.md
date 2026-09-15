@@ -1,0 +1,43 @@
+# Third-party notices
+
+The 22 images and GIFs in `images/` are **not** covered by this repository's CC BY 4.0 license
+([`LICENSE`](LICENSE)). Each one is the work of the respective simulator's authors, was downloaded
+from the exact URL listed below (unmodified unless the *Modifications* column says otherwise), and
+is reproduced here solely to illustrate the survey, with attribution. Copyright stays with the
+holders named; the license in each row is the one the *source* publishes the file under, which is
+not always the same as the simulator's code license quoted in `README.md`. Full license texts are in
+[`third_party_licenses/`](third_party_licenses/).
+
+Three images are licensed for **non-commercial use only** (TrafficBots, BITS, VISTA 2.0 — the last
+also *no derivatives*), and three come from sources that publish **no reuse license at all**
+(DeepDrive, Waymax, nuPlan). Anyone wishing to reuse those six beyond this repository should
+contact the copyright holder.
+
+| File | Simulator | Exact source | Copyright holder | License of source | Modifications |
+|---|---|---|---|---|---|
+| `carla.webp` | CARLA | [Docs/img/carla_ue5_readme_img.webp](https://raw.githubusercontent.com/carla-simulator/carla/ue5-dev/Docs/img/carla_ue5_readme_img.webp) (carla repo, `ue5-dev`) | © 2024 Computer Vision Center (CVC), Universitat Autònoma de Barcelona | [MIT](https://github.com/carla-simulator/carla/blob/ue5-dev/LICENSE) (CARLA assets: CC BY) | none |
+| `deepdrive.jpg` | DeepDrive | [deepdrive.io/assets/img/cam-depth3.jpg](https://deepdrive.io/assets/img/cam-depth3.jpg) (homepage) | © Deepdrive, Inc. | **none stated** for the website's images (the code repo is [MIT](https://github.com/deepdrive/deepdrive/blob/master/LICENSE.md), but this file is not in it) | none |
+| `metadrive.jpg` | MetaDrive | [documentation/source/figs/metadrive-envs.jpg](https://raw.githubusercontent.com/metadriverse/metadrive/main/documentation/source/figs/metadrive-envs.jpg) (metadrive repo) | © MetaDrive Team | [Apache-2.0](https://github.com/metadriverse/metadrive/blob/main/LICENSE.txt) | none |
+| `highway-env.gif` | highway-env | [roundabout-env.gif](https://highway-env.farama.org/main/_static/animations/environments/roundabout-env.gif) (docs site; byte-identical to `docs/_static/animations/environments/roundabout-env.gif` in the HighwayEnv repo) | © 2018 Edouard Leurent, © 2023 Farama Foundation | [MIT](https://github.com/Farama-Foundation/HighwayEnv/blob/master/LICENSE) | none |
+| `limsim.png` | LimSim | [assets/limsim_gui.png](https://raw.githubusercontent.com/PJLab-ADG/LimSim/master/assets/limsim_gui.png) (LimSim repo) | © PJLab-ADG (LimSim authors) | [GPL-3.0](https://github.com/PJLab-ADG/LimSim/blob/master/LICENSE) | none |
+| `torcs.png` | TORCS | [torcs-20121025123603.png](https://a.fsdn.com/con/app/proj/torcs/screenshots/torcs-20121025123603.png) (SourceForge project screenshot gallery) | © The TORCS Team | [GPL-2.0](https://sourceforge.net/projects/torcs/) (project license; the gallery itself carries no separate notice) | none |
+| `gazebo.png` | Gazebo | [tutorials/files/digital_elevation_models/gazebo_half_dome.png](https://raw.githubusercontent.com/gazebosim/gz-sim/main/tutorials/files/digital_elevation_models/gazebo_half_dome.png) (gz-sim repo) | © Open Source Robotics Foundation | [Apache-2.0](https://github.com/gazebosim/gz-sim/blob/main/LICENSE) | none |
+| `webots.png` | Webots | [docs/guide/images/sensors/lidar_simulation.png](https://raw.githubusercontent.com/cyberbotics/webots/master/docs/guide/images/sensors/lidar_simulation.png) (webots repo) | © Cyberbotics Ltd. | [Apache-2.0](https://github.com/cyberbotics/webots/blob/master/LICENSE) | none |
+| `pybullet.png` | PyBullet | [docs/pybullet_quickstart_guide/images/CoRL_VR_demo.png](https://raw.githubusercontent.com/bulletphysics/bullet3/master/docs/pybullet_quickstart_guide/images/CoRL_VR_demo.png) (bullet3 repo) | © Erwin Coumans (Bullet Physics) | [zlib](https://github.com/bulletphysics/bullet3/blob/master/LICENSE.txt) | none |
+| `mujoco.png` | MuJoCo | [boston_dynamics_spot/spot.png](https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/boston_dynamics_spot/spot.png) (mujoco_menagerie repo) | © 2021 Clearpath Robotics Inc. (Spot model directory); render published by Google DeepMind | [BSD-3-Clause](https://github.com/google-deepmind/mujoco_menagerie/blob/main/boston_dynamics_spot/LICENSE) | none |
+| `isaac-sim-lab.jpg` | Isaac Sim/Lab | [docs/source/_static/isaaclab.jpg](https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/docs/source/_static/isaaclab.jpg) (IsaacLab repo) | © 2022–2025 The Isaac Lab Project Developers | [BSD-3-Clause](https://github.com/isaac-sim/IsaacLab/blob/main/LICENSE) | none |
+| `project-chrono.jpg` | Project Chrono | [projectchrono.org/assets/Images/humvee_ditch.jpg](https://projectchrono.org/assets/Images/humvee_ditch.jpg) (homepage; byte-identical to `assets/Images/humvee_ditch.jpg` in the chrono-website repo) | © 2016 Project Chrono Development Team | [BSD-3-Clause](https://github.com/projectchrono/chrono-website/blob/develop/license-chrono.txt) | none |
+| `waymax.png` | Waymax | [Fig. 1, arXiv:2310.08710](https://ar5iv.labs.arxiv.org/html/2310.08710/assets/figs/waymax_splash_intersection.png) (via ar5iv) | © Waymo LLC (Gulino et al.) | **none for reuse** — the paper is on arXiv under the [arXiv non-exclusive distribution license](http://arxiv.org/licenses/nonexclusive-distrib/1.0/), which grants rights to arXiv only | none |
+| `gpudrive.gif` | GPUDrive | [assets/sim_video_7.gif](https://raw.githubusercontent.com/Emerge-Lab/gpudrive/main/assets/sim_video_7.gif) (gpudrive repo) | © 2024 Saman Kazemkhani, Aarav Pandya, Daphne Cornelisse, Brennan Shacklett, Eugene Vinitsky | [MIT](https://github.com/Emerge-Lab/gpudrive/blob/main/LICENSE) | none |
+| `nuplan.png` | nuPlan | Frame at 0:04 of [*Technically Speaking: Offline Perception*](https://www.youtube.com/watch?v=xVQPUa7tgjU&t=4s) (Motional's YouTube channel, 2021-11-23) | © Motional | **none for reuse** — Standard YouTube License | single frame extracted |
+| `scenarionet.png` | ScenarioNet | Frame at 0:03 of [montage.mp4](https://metadriverse.github.io/assets/scenarionet/montage.mp4) (project page; the file is `assets/scenarionet/montage.mp4` in the metadriverse.github.io repo) | © MetaDriverse | [MIT](https://github.com/metadriverse/metadriverse.github.io/blob/main/LICENSE) (repo license) | single frame extracted |
+| `trafficbots.png` | TrafficBots | [docs/trafficbots_banner.jpg](https://raw.githubusercontent.com/zhejz/TrafficBots/main/docs/trafficbots_banner.jpg) (TrafficBots repo) | © Zhejun Zhang et al. | [CC BY-NC 4.0](https://github.com/zhejz/TrafficBots/blob/main/LICENSE) — **non-commercial** | cropped to the rendered-scene panel |
+| `bits.gif` | BITS | [assets/sample_rollout.gif](https://raw.githubusercontent.com/NVlabs/traffic-behavior-simulation/main/assets/sample_rollout.gif) (NVlabs repo) | © NVIDIA Corporation | [NVIDIA Source Code License-NC](https://github.com/NVlabs/traffic-behavior-simulation/blob/main/LICENSE) — **non-commercial**; §3.1 requires a full copy of the license to accompany redistribution (see `third_party_licenses/`) | none |
+| `intersim.png` | InterSim | [tutorials/python_vis.png](https://raw.githubusercontent.com/Tsinghua-MARS-Lab/InterSim/main/tutorials/python_vis.png) (InterSim repo) | © 2022 Tsinghua MARS Lab | [MIT](https://github.com/Tsinghua-MARS-Lab/InterSim/blob/main/LICENSE) | none |
+| `vista.jpg` | VISTA 2.0 | [vista2.jpg](https://news.mit.edu/sites/default/files/images/202206/vista2.jpg) from [MIT News, 2022-06-21](https://news.mit.edu/2022/researchers-release-open-source-photorealistic-simulator-autonomous-driving-0621) | Image courtesy of MIT CSAIL (credit line required by MIT News) | [CC BY-NC-ND 4.0](https://news.mit.edu/terms-of-use) per MIT News terms of use — **non-commercial, no derivatives** | none |
+| `mile.gif` | MILE | [mile_driving_in_imagination.gif](https://github.com/wayveai/mile/releases/download/v1.0/mile_driving_in_imagination.gif) (v1.0 release asset) | © 2022 Wayve Technologies Limited | [MIT](https://github.com/wayveai/mile/blob/main/LICENSE) | none |
+| `resim.gif` | ReSim | [assets/comparison1.gif](https://raw.githubusercontent.com/OpenDriveLab/ReSim/main/assets/comparison1.gif) (ReSim repo) | © OpenDriveLab | [Apache-2.0](https://github.com/OpenDriveLab/ReSim/blob/main/LICENSE) | none |
+
+Verification (2026-09-15): every "exact source" URL above was re-downloaded and compared against
+the repo copy; the 19 unmodified files match byte-for-byte (SHA-256). The three modified entries
+(two video frames, one crop) were checked for a live source only.
